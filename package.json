@@ -1,0 +1,28 @@
+{
+  "name": "sqs-file-sync",
+  "version": "1.0.0",
+  "description": "Connector to pull record from sqs and push to kinesis",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shukla2009/sqs-kinesis-connector.git"
+  },
+  "keywords": [
+    "SQS",
+    "KINESIS"
+  ],
+  "author": "Rahul Shukla shukla2009@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shukla2009/sqs-kinesis-connector/issues"
+  },
+  "homepage": "https://github.com/shukla2009/sqs-kinesis-connector#readme",
+  "dependencies": {
+    "aws-sdk": "^2.86.0",
+    "lodash": "^4.17.4",
+    "winston": "^2.3.1"
+  }
+}
