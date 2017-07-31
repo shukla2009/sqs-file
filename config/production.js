@@ -10,7 +10,7 @@ module.exports = {
             stream: process.env.AWS_KINESIS_STREAM
         },
         sqs: {
-            url: process.env.AWS_ACCESS_URL
+            url: process.env.AWS_SQS_URL
         }
     }
 };
