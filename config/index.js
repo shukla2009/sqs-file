@@ -11,6 +11,9 @@ var all = {
     },
     log: {
         level: process.env.LOG_LEVEL || 'debug'
+    },
+    output: {
+        file: process.env.OUTPUT_FILE || 'output.log'
     }
 };
 
